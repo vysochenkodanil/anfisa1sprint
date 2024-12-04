@@ -6,7 +6,11 @@ SECRET_KEY = 'django-insecure-oy%f52n92s=%3&b3dh&h)f(b4ag^_z*&3w+ooo!sy-g=449bwn
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '192.168.31.216',
+    'localhost',
+    '127.0.0.1',
+]
 
 INSTALLED_APPS = [
     'homepage.apps.HomepageConfig',
